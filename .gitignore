@@ -1,0 +1,21 @@
+# Build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Publish artifacts
+publish/
+**/publish/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
