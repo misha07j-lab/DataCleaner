@@ -1,15 +1,15 @@
-# Build outputs
+# Build
 bin/
 obj/
 **/bin/
 **/obj/
 
-# Visual Studio
+# VS
 .vs/
 *.user
 *.suo
 
-# Publish artifacts
+# Publish
 publish/
 **/publish/
 
@@ -17,5 +17,5 @@ publish/
 *.log
 
 # OS
-.DS_Store
 Thumbs.db
+.DS_Store
