@@ -9,7 +9,7 @@ namespace DataCleaner.Cli
         public static ParseResult Parse(string[] args)
         {
             if (args == null || args.Length == 0)
-                return ParseResult.Help();
+                throw new DataCleanerException("Arguments are required. Use --help for usage.");
 
             if (Contains(args, "--help") || Contains(args, "-h"))
                 return ParseResult.Help();
